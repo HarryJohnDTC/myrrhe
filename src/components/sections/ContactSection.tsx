@@ -20,15 +20,15 @@ export function ContactSection() {
             <div className="space-y-4">
               <div className="flex items-center text-foreground">
                 <Mail className="w-5 h-5 mr-3 text-accent flex-shrink-0" />
-                <a href="mailto:contact@myrrhe-assist.com" className="hover:text-primary transition-colors break-all">contact@myrrhe-assist.com</a>
+                <a href="mailto:contact@myrrhe-assist.com" className="hover:text-primary transition-colors break-all">mioraassdga@gmail.com</a>
               </div>
               <div className="flex items-center text-foreground">
                 <Phone className="w-5 h-5 mr-3 text-accent flex-shrink-0" />
-                <a href="tel:+33123456789" className="hover:text-primary transition-colors">+33 1 23 45 67 89 (Exemple)</a>
+                <a href="tel:+33123456789" className="hover:text-primary transition-colors">+261 34 45 634 12 </a>
               </div>
               <div className="flex items-center text-foreground">
                 <MapPin className="w-5 h-5 mr-3 text-accent flex-shrink-0" />
-                <span>Basé en France (Intervention à distance)</span>
+                <span>Basé à Madagascar (Intervention à distance)</span>
               </div>
             </div>
           </div>
