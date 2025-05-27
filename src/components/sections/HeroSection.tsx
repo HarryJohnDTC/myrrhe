@@ -21,11 +21,11 @@ export function HeroSection() {
         </div>
         <div className="relative h-64 md:h-96 rounded-lg overflow-hidden shadow-xl mt-8 md:mt-0">
           <Image
-            src="https://placehold.co/600x400.png"
-            alt="Bureau professionnel et organisé symbolisant l'efficacité de Myrrhe Assist"
+            src="/myrrhe-assist-banner.jpg"
+            alt="Bannière principale de Myrrhe Assist"
             fill
             className="object-cover"
-            data-ai-hint="professional workspace"
+            data-ai-hint="custom banner"
             priority
           />
         </div>
