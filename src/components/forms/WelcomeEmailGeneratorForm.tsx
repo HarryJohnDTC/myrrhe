@@ -1,6 +1,7 @@
 'use client';
 
-import { useFormState, useFormStatus } from 'react-dom';
+import { useFormStatus } from 'react-dom';
+import { useActionState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -38,7 +39,7 @@ function SubmitButton() {
 }
 
 export function WelcomeEmailGeneratorForm() {
-  const [state, formAction] = useFormState(generateWelcomeEmailAction, initialState);
+  const [state, formAction] = useActionState(generateWelcomeEmailAction, initialState);
   const { toast } = useToast();
   const formRef = useRef<HTMLFormElement>(null);
 
